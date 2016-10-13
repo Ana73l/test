@@ -25,7 +25,7 @@ function init() {
 function render() {
   requestAnimationFrame(render);
 
-  cube.rotation.x += 0.05;
+  /* cube.rotation.x += 0.05; */
 
   renderer.render(scene, camera);
 }
