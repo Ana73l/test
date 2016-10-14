@@ -60,7 +60,7 @@ function init() {
 function render() {
   requestAnimationFrame(render);
 
-  var upVector = new THREE.Vector3(-3, 8, 4);
+  var upVector = new THREE.Vector3(-1, 8, 0);
   var axis = planet.position.clone().sub(upVector).normalize();
   moon.position.applyAxisAngle(axis, .05);
 
