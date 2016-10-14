@@ -8,7 +8,7 @@ var scene = new THREE.Scene(),
 
 
 function init() {
-  camera.position.z = 1000;
+  camera.position.z = 2000;
   renderer.setSize(window.innerWidth, window.innerHeight);
   document.body.appendChild(renderer.domElement);
 
